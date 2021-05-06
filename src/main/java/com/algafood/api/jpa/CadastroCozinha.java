@@ -18,7 +18,7 @@ public class CadastroCozinha {
 	public List<Cozinha> listar(){
 		TypedQuery<Cozinha> query = manager.createQuery("form Cozinha", Cozinha.class);
 		return query.getResultList();
-	};
+	}
 	
 
 }
